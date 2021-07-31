@@ -28,7 +28,7 @@ My strategy to solve this challenge was:
 
 **Data overview**
 
-**printscreen**
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/rossmann_data_description.png)
 
 **Interesting points:**
 
