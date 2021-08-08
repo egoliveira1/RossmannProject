@@ -6,12 +6,12 @@
 
 # 1. Business Problem.
 
-**The company**
+**The company:**<br>
 Dirk Rossmann GmbH, with 56,300 employees in Europe and 4,244 stores, including 2,233 in Germany, is one of the largest drugstore chains in Europe. In 2020, the ROSSMANN Group achieved average sales of 10.35 billion euros in Germany, Poland, Hungary, Czech Republic, Albania, Kosovo, Spain, and Turkey.
 The ROSSMANN range is highly customer-oriented. The product range comprises approximately 21,700 items and varies by store location and size. The average sales area of ​​ROSSMANN drugstores is 590 square meters.
-In 2014, a new store image was launched, with warmer colors, new product ranges, an attractive customer orientation system, and lots of indirect light for a more personal approach with the customer.
+In 2014, a new store image was launched, with warmer colors, new product ranges, an attractive customer orientation system, and lots of indirect light to improve the close relationship with the customer.
 
-**The problem**
+**The problem:**<br>
 Implementing store improvements requires well-structured financial planning with a small margin of error, preventing the company from wasting money on implementing the initiatives.
 The main difficulty encountered by the CFO was to know how much each store sold and how much would sell in the short term.
 Furthermore, there was no easy, automated, standardized way to obtain this information.
@@ -65,20 +65,35 @@ The model is deployed on a cloud environment to make it possible that other stak
 # 4. Top 3 Data Insights
 
 **Hypothesis 01:**
-
-**True/False.**
+Shops with greater product assortment should sell more.<br>
+**FALSE** - Shops with **GREAT ASSORTMENT** of products sell **LESS**.<br>
 
 **Hypothesis 02:**
+Shops with closer competitors should sell less.<br>
+**FALSE** - Shops with **CLOSER COMPETITORS** sell **MORE**.<br>
 
-**True/False.**
+**Hypothesis 07:**
+Shops open during the Christmas holiday should sell more.<br>
+**FALSE** - Shops open during the **CHRISTMAS HOLIDAY** sell **LESS**.<br>
 
-**Hypothesis 03:**
+**Hypothesis table:**
+*The complete list of hypotheses is available in the project notebook.
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hypothesis_table.png)
 
-**True/False.**
 
 # 5. Machine Learning Model Applied
+The following machine learning models were trained:
+
+- Average model (reference);
+- Linear Regression Model;
+- Linear Regression Regularized Model - LASSO;
+- Random Forest Regressor;
+- XGBoost Regressor.
+
+**All the models applied went through the Cross Validation stage.**
 
 # 6. Machine Learning Model Performance
+
 
 # 7. Business Results
 
