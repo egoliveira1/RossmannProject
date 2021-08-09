@@ -1,6 +1,6 @@
 # Sales volume forecast for Rossmann Drugstores
 
-## This project is about increase sales by DS
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/banner_rossmann.png)
 
 #### This project was made by Eron Oliveira.
 
