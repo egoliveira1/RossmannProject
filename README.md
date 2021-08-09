@@ -64,17 +64,30 @@ The model is deployed on a cloud environment to make it possible that other stak
 
 # 4. Top 3 Data Insights
 
+The hypotheses were developed through the creation of a mind map, where the variables that influence the business model were listed.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/MindMapHypothesis.png)
+
 **Hypothesis 01:**
 Shops with greater product assortment should sell more.<br>
 **FALSE** - Shops with **GREAT ASSORTMENT** of products sell **LESS**.<br>
+Although this hypothesis has low relevance for the model, it indicates something interesting for the business. In Rossmann's business model and considering the available variables, it is not necessary to have a wide variety of products to sell more.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hyp_1_assortment.png)
 
 **Hypothesis 02:**
 Shops with closer competitors should sell less.<br>
 **FALSE** - Shops with **CLOSER COMPETITORS** sell **MORE**.<br>
+In this case, another certainty is contradicted. The fact that there is close competition helps the business outcome.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hyp_2_distance.png)
 
 **Hypothesis 07:**
 Shops open during the Christmas holiday should sell more.<br>
 **FALSE** - Shops open during the **CHRISTMAS HOLIDAY** sell **LESS**.<br>
+Hypothesis 7 states that the shop opening on the Christmas holiday means selling more. However, the data shows that customer movement on holidays is lower and therefore the shop sells less.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hyp_7_holiday.png)
 
 **Hypothesis table:**
 *The complete list of hypotheses is available in the project notebook.
