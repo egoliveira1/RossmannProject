@@ -78,7 +78,8 @@ Shops open during the Christmas holiday should sell more.<br>
 
 **Hypothesis table:**
 *The complete list of hypotheses is available in the project notebook.
-![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hypothesis_table.png)
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/hypotheses_summary.png)
 
 
 # 5. Machine Learning Model Applied
@@ -93,9 +94,17 @@ The following machine learning models were trained:
 **All the models applied went through the Cross Validation stage.**
 
 # 6. Machine Learning Model Performance
+The following table shows the performance of the models after the "Cross-Validation" phase. Though the "Random Forest Regressor" model presented the best results, I used the "XGBoost Regressor" model for exploratory and hardware limitations reasons. 
 
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/ML_real_performance.png)
+
+Thus, after choosing the final model, it is submitted in the fine-tuning phase results were positive and are below.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/ML_xgb_fine_tuning.png)
 
 # 7. Business Results
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/business_results.png)
 
 # 8. Conclusions
 
