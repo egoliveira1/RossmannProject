@@ -1,5 +1,3 @@
-# Sales volume forecast for Rossmann Drugstores
-
 ![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/banner_rossmann.png)
 
 #### This project was made by Eron Oliveira.
@@ -117,14 +115,27 @@ Thus, after choosing the final model, it is submitted in the fine-tuning phase r
 
 # 7. Business Results
 
+**Mean Absolute Error** 
+
 ![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/business_results.png)
+
+The MAE tells the absolute error that may occur for more or less in each prediction. In this case, the trained model brings a result 31% better than the simple average.
+
+![Screenshot](https://github.com/egoliveira1/RossmannProject/blob/main/img/business_predictions_results.png)
+
+The final result of all predictions made by the Machine Learning model suffers a small variation and ensures safety for decision making.
 
 # 8. Conclusions
 
-# 9. Lessons Learned
+The result of the research indicates that the application of Machine Learning models makes the decision process safer since it minimizes the margin of error in the investment that will be made in each shop of the group.
 
-# 10. Next Steps to Improve
+# 9. Next Steps to Improve
 
-# LICENSE
+- Apply a Random Forest model to check for a better result.
+- Analyse the variables again and test creating new options or improving the relationships that already exist.
+- Enhance TelegramBot to provide more detailed information.
 
-# All Rights Reserved - Comunidade DS 2021
+### LICENSE
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+#### All Rights Reserved - Comunidade DS 2021
